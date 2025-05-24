@@ -1,0 +1,8 @@
+[Event/startkde]
+Action=Popup|Sound
+Sound=file:///usr/share/sounds/usus/amogus_startup_sound.ogg
+
+[Event/beep]
+Action=Popup|Sound
+Sound=file:///usr/share/sounds/usus/amogus_terminal_bell.ogg
+

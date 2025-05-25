@@ -1,0 +1,15 @@
+NAME="usus"
+VERSION="fuckifiknow"
+RELEASE_TYPE=stable
+ID=amogus
+ID_LIKE="fedora"
+VERSION_ID=42
+VERSION_CODENAME=""
+PLATFORM_ID="platform:f42"
+PRETTY_NAME="amogus"
+LOGO=fedora-logo-icon
+DEFAULT_HOSTNAME="sussywussy"
+HOME_URL="https://bongo.cat/"
+DOCUMENTATION_URL="https://www.youtube.com/watch?v=bjElAioZ7Ls"
+SUPPORT_END=2016-05-28
+VARIANT="Kinoite"

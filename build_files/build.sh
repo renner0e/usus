@@ -21,6 +21,15 @@ sed -i 's|https://getaurora.dev|https://www.youtube.com/watch?v=ixLuhDxNktk|g' /
 sed -i 's|https://docs.getaurora.dev|https://glorp.ihatethis.getaurora.dev|g' /etc/os-release
 sed -i 's|https://github.com/ublue-os/aurora|https://github.com/renner0e/usus|g' /etc/os-release
 
+# wobbly windows
+# enable
+kwriteconfig6 --file kwinrc --group Plugins --key "wobblywindowsEnabled" "true"
+
+kwriteconfig6 --file kwinrc --group Effect-wobblywindows --key "MoveFactor" "100"
+kwriteconfig6 --file kwinrc --group Effect-wobblywindows --key "Drag" "130"
+kwriteconfig6 --file kwinrc --group Effect-wobblywindows --key "Stiffness" "1"
+kwriteconfig6 --file kwinrc --group Effect-wobblywindows --key "WobblynessLevel" "4"
+
 
 # copy pasted initramfs script
 KERNEL_SUFFIX=""

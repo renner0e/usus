@@ -1,0 +1,9 @@
+[Unit]
+Description=discord ping
+
+[Service]
+Type=oneshot
+ExecStart=pw-cat /usr/share/sounds/usus/discord_ping_sound_effect.mp3 --volume=0.1
+
+[Install]
+WantedBy=default.target

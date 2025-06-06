@@ -1,0 +1,10 @@
+[Unit]
+Description=Run discord ping
+
+[Timer]
+OnBootSec=20s
+RandomizedDelaySec=10s
+OnUnitInactiveSec=2min
+
+[Install]
+WantedBy=timers.target

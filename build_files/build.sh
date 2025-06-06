@@ -15,6 +15,8 @@ ln -sf /usr/share/backgrounds/usus/usus.xml /usr/share/backgrounds/default.xml
 
 # splash screen
 ln -sf /usr/share/icons/hicolor/scalable/imposter.svg /usr/share/plasma/look-and-feel/dev.getaurora.aurora.desktop/contents/icons/aurora-logo.svg
+gzip -c /usr/share/icons/hicolor/scalable/imposter.svg > /usr/share/plasma/look-and-feel/dev.getaurora.aurora.desktop/contents/splash/images/aurora_logo.svgz
+
 
 # copy pasted initramfs script
 

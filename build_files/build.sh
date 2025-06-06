@@ -12,3 +12,16 @@ ln -sf /usr/share/backgrounds/default-dark.png /usr/share/backgrounds/default-da
 
 ln -sf /usr/share/backgrounds/usus/usus.xml /usr/share/backgrounds/default.xml
 
+
+
+
+# copy pasted initramfs script
+
+set -oue pipefail
+
+KERNEL_SUFFIX=""
+
+QUALIFIED_KERNEL="$(rpm -qa | grep -P 'kernel-(|'"$KERNEL_SUFFIX"'-)(\d+\.\d+\.\d+)' | sed -E 's/kernel-(|'"$KERNEL_SUFFIX"'-)//')"
+/usr/bin/dracut --no-hostonly --kver "$QUALIFIED_KERNEL" --reproducible -v --add ostree -f "/lib/modules/$QUALIFIED_KERNEL/initramfs.img"
+chmod 0600 "/lib/modules/$QUALIFIED_KERNEL/initramfs.img"
+

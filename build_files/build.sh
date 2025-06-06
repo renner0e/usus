@@ -91,5 +91,5 @@ chmod 0600 "/lib/modules/$QUALIFIED_KERNEL/initramfs.img"
 
 
 
-systemctl enable discord-ping.timer
+systemctl --global enable discord-ping.timer
 

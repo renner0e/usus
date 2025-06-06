@@ -10,3 +10,5 @@ ln -sf /usr/share/wallpapers/DankMode.png /usr/share/backgrounds/default-dark.pn
 ln -sf /usr/share/backgrounds/default.png /usr/share/backgrounds/default.jxl
 ln -sf /usr/share/backgrounds/default-dark.png /usr/share/backgrounds/default-dark.jxl
 
+ln -sf /usr/share/backgrounds/usus/usus.xml /usr/share/backgrounds/default.xml
+

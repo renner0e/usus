@@ -3,6 +3,10 @@
 set -ouex pipefail
 
 # set default wallpaper
-ln -sf /usr/share/wallpapers/DankMode.png /usr/share/backgrounds/default.png
+ln -sf /usr/share/wallpapers/AmogOS-original.png /usr/share/backgrounds/default.png
+ln -sf /usr/share/wallpapers/DankMode.png /usr/share/backgrounds/default-dark.png
 
-ln -sf /usr/share/backgrounds/usus/usus.xml /usr/share/backgrounds/default.xml
+# /usr/share/sddm/themes/01-breeze-fedora/theme.conf uses default.jxl for the background
+ln -sf /usr/share/backgrounds/default.png /usr/share/backgrounds/default.jxl
+ln -sf /usr/share/backgrounds/default-dark.png /usr/share/backgrounds/default-dark.jxl
+

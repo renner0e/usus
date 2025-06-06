@@ -13,11 +13,10 @@ ln -sf /usr/share/backgrounds/default-dark.png /usr/share/backgrounds/default-da
 ln -sf /usr/share/backgrounds/usus/usus.xml /usr/share/backgrounds/default.xml
 
 
-
+# splash screen
+ln -sf /usr/share/icons/hicolor/scalable/imposter.svg /usr/share/plasma/look-and-feel/dev.getaurora.aurora.desktop/contents/icons/aurora-logo.svg
 
 # copy pasted initramfs script
-
-set -oue pipefail
 
 KERNEL_SUFFIX=""
 

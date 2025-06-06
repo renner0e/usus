@@ -17,7 +17,7 @@ ln -sf /usr/share/backgrounds/usus/usus.xml /usr/share/backgrounds/default.xml
 ln -sf /usr/share/pixmaps/imposter.svg /usr/share/plasma/look-and-feel/dev.getaurora.aurora.desktop/contents/icons/aurora-logo.svg
 gzip -c /usr/share/pixmaps/imposter.svg > /usr/share/plasma/look-and-feel/dev.getaurora.aurora.desktop/contents/splash/images/aurora_logo.svgz
 
-sed -i 's|https://getaurora.dev|https://getsussy.lol|g' /etc/os-release
+sed -i 's|https://getaurora.dev|https://www.youtube.com/watch?v=ixLuhDxNktk|g' /etc/os-release
 sed -i 's|https://docs.getaurora.dev|https://glorp.ihatethis.getaurora.dev|g' /etc/os-release
 sed -i 's|https://github.com/ublue-os/aurora|https://github.com/renner0e/usus|g' /etc/os-release
 

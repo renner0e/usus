@@ -1,6 +1,6 @@
 [Event/startkde]
 Action=Popup|Sound
-Sound=file:///usr/share/sounds/usus/amogus_startup_sound.ogg
+Sound=file:///usr/share/sounds/usus/AmogOS_bootjingle.ogg
 
 [Event/beep]
 Action=Popup|Sound

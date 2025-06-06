@@ -12,7 +12,6 @@ ln -sf /usr/share/backgrounds/default-dark.png /usr/share/backgrounds/default-da
 
 ln -sf /usr/share/backgrounds/usus/usus.xml /usr/share/backgrounds/default.xml
 
-rm -f /usr/share/backgrounds/aurora/aurora.xml
 
 
 
